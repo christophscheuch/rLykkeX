@@ -1,0 +1,21 @@
+Package: rLykkeX
+Type: Package
+Title: R Wrapper for the LykkeX Trading API
+Version: 0.1.0
+Author: Christoph Scheuch
+Maintainer: Christoph Scheuch <christoph.scheuch@gmail.com>
+Description: The packages enables the interaction with the LykkeX high frequency trading API from R. Apart from reading information related to orderbooks of specific asset pairs and checking wallet balances for private API keys, the package allows sending market and limit orders to the exchange.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+         tibble,
+         ggplot2,
+         httr, 
+         jsonlite, 
+         scales, 
+         knitr
+Suggests: knitr,
+          rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
