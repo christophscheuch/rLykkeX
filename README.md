@@ -2,7 +2,7 @@
 
 Simple R wrapper for the [Lykke Exchange API](https://hft-service-dev.lykkex.net/swagger/ui/index.html). 
 
-**Note**:the current default environment is the development API of Lykkex.
+**Note**: the current default environment is the development API of [LykkeX](https://www.lykke.com/exchange).
 
 ```{r eval = FALSE}
 # install.packages("devtools")
@@ -17,3 +17,4 @@ devtools::install_github("ckscheuch/rLykkeX")
 The package is still at an early stage and needs extensive testing. Feel free to open issues or fork the repository. The following steps are already on the agenda:
 
 * Create documentation for functions
+* Fix limit order cancellation
